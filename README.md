@@ -24,6 +24,14 @@ bash <(curl -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/sc
 
 Install CHR Patched:
 
-    bash <(curl -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/scripts/install-chr-patched.sh)
+```
+bash <(curl -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/scripts/install-chr-patched.sh)
+```
+
+for lisence use here :
+
+    [Keygen(Telegram Bot)](https://t.me/ROS_Keygen_Bot)
+
+
 
 
