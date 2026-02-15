@@ -15,7 +15,7 @@ apt update && apt install curl wget unzip -y
 Install CHR:
 
 ```
-bash <(curl -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/scripts/install-chr.sh)
+bash <(curl -4 -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/scripts/install-chr.sh)
 ```
 
 
@@ -25,7 +25,7 @@ bash <(curl -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/sc
 Install CHR Patched:
 
 ```
-bash <(curl -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/scripts/install-chr-patched.sh)
+bash <(curl -4 -sSL https://github.com/mymikrotik/mikrotik-devops-files/raw/main/scripts/install-chr-patched.sh)
 ```
 
 for lisence use here :

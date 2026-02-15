@@ -11,7 +11,7 @@ mkdir -p /tmp/chr
 mount -t tmpfs -o size=512M tmpfs /tmp/chr
 cd /tmp/chr
 
-wget -q --show-progress "$CHR_URL" -O chr.zip
+wget -q -4 --show-progress "$CHR_URL" -O chr.zip
 gunzip -c chr.zip > chr.img 2>/dev/null || unzip -p chr.zip > chr.img
 
 echo "Writing to $DISK..."
